@@ -3,7 +3,7 @@ App to predict scanned receipt count for 2022 based on 2021 data for Fetch take 
 
 Code for the app is contained in app.py and the code for the model is in the notebook regression_model.ipynb
 
-to run the streamlit app run the following commands in the directory containing the Dockerfile
+to run the streamlit app run the following commands in the directory containing the Dockerfile then use the url: http://0.0.0.0:8501/ or http://localhost:8501/ depending on your network
 
 docker build -t [DOCKER_IMAGE_NAME] .
 
